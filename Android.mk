@@ -5,7 +5,6 @@ LOCAL_MODULE := TrichromeLibrary
 LOCAL_MODULE_CLASS := APPS
 LOCAL_PRODUCT_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
-LOCAL_MULTILIB := both
 LOCAL_MODULE_TARGET_ARCH := x86
 LOCAL_SRC_FILES := TrichromeLibrary.apk
 include $(BUILD_PREBUILT)
@@ -15,7 +14,6 @@ LOCAL_MODULE := TrichromeWebView
 LOCAL_MODULE_CLASS := APPS
 LOCAL_PRODUCT_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
-LOCAL_MULTILIB := both
 LOCAL_REQUIRED_MODULES := \
         libwebviewchromium_loader \
         libwebviewchromium_plat_support \
@@ -30,7 +28,6 @@ LOCAL_MODULE := TrichromeChrome
 LOCAL_MODULE_CLASS := APPS
 LOCAL_PRODUCT_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
-LOCAL_MULTILIB := both
 LOCAL_REQUIRED_MODULES := \
         TrichromeLibrary
 LOCAL_OVERRIDES_PACKAGES := Browser2 QuickSearchBox
