@@ -1,3 +1,5 @@
+ifeq ($(TARGET_ARCH),x86)
+
 LOCAL_PATH := $(call my-dir)
 
 include $(CLEAR_VARS)
@@ -34,3 +36,5 @@ LOCAL_OVERRIDES_PACKAGES := Browser2 QuickSearchBox
 LOCAL_MODULE_TARGET_ARCH := x86
 LOCAL_SRC_FILES := TrichromeChrome.apk
 include $(BUILD_PREBUILT)
+
+endif
