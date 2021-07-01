@@ -1,0 +1,4 @@
+update_fdroid_repo_common:
+  trigger: CalyxOS/fdroid-repo-emulator
+  only:
+  - android11-qpr1
